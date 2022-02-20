@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Cinzel',
+        serif;
+}
+
+@media(min-width:320px) and (max-width:575.98px) {
+    .font_size {
+        font-size: 50px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.98px) {
+    .font_size {
+        font-size: 70px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px) {
+    .font_size {
+        font-size: 90px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1023.98px) {
+    .font_size {
+        font-size: 180px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1199.98px) {
+    .font_size {
+        font-size: 180px;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1399.98px) {
+    .font_size {
+        font-size: 180px;
+    }
+}
+
+@media(min-width:1400px) and (max-width:2000px) {
+    .font_size {
+        font-size: 180px;
+    }
+}
+
+.bg-image {
+    background-image: url('../images/Front-image.png');
+    min-height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-black {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.break {
+    display: block;
+}
+
+/* 
+.font_size_180 {
+    font-size: 180px;
+} */
+
+.font_weight_700 {
+    font-weight: 900;
+}
+
+.border_line {
+    border-bottom: 2px solid #6A00B9;
+}
+
+#blue_button {
+    border: 1px solid #6A00B9;
+    background-color: #6A00B9;
+    color: white;
+    padding: 7px 25px;
+}
+
+#blue_button:hover {
+    border: 1px solid #6A00B9;
+    background-color: white;
+    color: #6A00B9;
+    padding: 7px 25px;
+}
+
+#blue_button_2 {
+    border: 1px solid #6A00B9;
+    background-color: #6A00B9;
+    color: white;
+    padding: 7px 25px;
+}
+
+#blue_button_2:hover {
+    border: 1px solid #6A00B9;
+    background-color: white;
+    color: #6A00B9;
+    padding: 7px 25px;
+}
+
+.bg-image-services {
+    background-image: url('../images/bg-section-3.png');
+    min-height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.padding_top_60 {
+    padding-top: 60px;
+}
+
+.padding_bottom_30 {
+    padding-bottom: 30px;
+}
+
+.w_17 {
+    width: 17%;
+}
+
+.w_20 {
+    width: 20%;
+}
+
+.w_90 {
+    width: 90%;
+}
+
+.bg-color {
+    background-color: #F6F4F4;
+}
+
+.height_150 {
+    height: 150px;
+}
+
+.text_decoration_none {
+    text-decoration: none;
+}
+
+.text_purple {
+    color: #6A00B9;
+}
+
+.p_25 {
+    padding: 25px 25px 15px 25px;
+
+}
+
+.margin_top_40 {
+    margin-top: 55px;
+}
+
+#blue_button_3 {
+    border: 1px solid #6A00B9;
+    background-color: #6A00B9;
+    color: white;
+    padding: 7px 25px;
+}
+
+#blue_button_3:hover {
+    border: 1px solid #6A00B9;
+    background-color: white;
+    color: #6A00B9;
+    padding: 7px 25px;
+}
+
+.bg-image-contact {
+    background-image: url('../images/Ellipse\ 8.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: auto;
+    right: 50px;
+    bottom: 50px;
+}
+
+.bg_footer {
+    background-image: url('../images/Rectangle\ 521.png');
+    min-height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
